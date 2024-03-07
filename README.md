@@ -19,9 +19,9 @@ Please download the dataset from the Kaggle challenge website **RSNA-MICCAI Brai
 * Input/prep/exp1
 * Output/exp1/Results/
 ### Prefil config file before running experiments
-* Use create_folds.py to split the dataset file into 5 folds.
-* To obtain the baseline, run train.py with command-line arguments.
-* Execute train_loop.sh to extend the preceding result to all data folds (five in this case).
-* Obtain radiomic features using pyradiomics and use do_stat-test.py
+* Use ```create_folds.py``` to split the dataset file into 5 folds.
+* To obtain the baseline, run ```train.py``` with command-line arguments.
+* Execute ```train_loop.sh``` to extend the preceding result to all data folds (five in this case).
+* Obtain radiomic features using pyradiomics and use ```do_stat-test.py```
 * To perform feature selection use script ```RFE_fores.py``` from command line with a config.json as input.
-* To obtain prediction result for selected feature use compare_ml_models.py with a config.json file.
+* To obtain prediction result for selected feature use ```compare_ml_models.py``` with a config.json file.
