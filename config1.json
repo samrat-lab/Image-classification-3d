@@ -1,0 +1,12 @@
+{
+	"rnd_seed":0,
+	"fig_title":"Model Comparision",
+	"inp_src":"../Input/prep/Script4/",
+	"out_src":"../Output/Script4/Results/",
+	"res_file":"compare_ml",
+	"cat_col":"MGMT_value",
+	"cat1":0,
+	"cat2":1,
+	"exp_fname":"../Input/prep/Script4/final_mat_flair.csv",
+	"gene_fname":"../Output/Script4/Results/feature_manwhit_union.csv"
+}
